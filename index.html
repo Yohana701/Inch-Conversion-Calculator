@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inch Conversion Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inch Conversion Calculator</h1>
+        <form id="conversionForm">
+            <label for="inches">Inches:</label>
+            <input type="number" id="inches" min="0" required>
+            
+            <button type="button" onclick="convertToFeet()">Convert to Feet</button>
+            <button type="button" onclick="convertToYards()">Convert to Yards</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
